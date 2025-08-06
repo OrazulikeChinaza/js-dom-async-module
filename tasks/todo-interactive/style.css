@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  ul.todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+   
+  ul.todo-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+  }
+
+  .check-icon {
+    display: none;
+    margin-left: 10px;
+  }
+
+  .completed {
+    background-color: #c8f7c5;
+    color: #2d572c;
+  }
+  
+  .completed .check-icon {
+    display: inline;
+  }
